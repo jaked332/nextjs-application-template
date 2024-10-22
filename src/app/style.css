@@ -1,0 +1,57 @@
+/* Navbar styling */
+#topMenu {
+    background-color: #004030;
+    padding: 10px 0;
+}
+
+.nav-link {
+    color: white !important; /* Make navbar links text white */
+}
+
+.nav-link:hover {
+    color: #ccc !important; /* Change text color on hover */
+}
+
+.nav-link i {
+    font-size: 1.5rem; /* Adjust icon size */
+    color: white !important; /* Make icons white */
+}
+
+.nav-link i:hover {
+    color: #ccc !important; /* Change icon color on hover */
+}
+
+/* Background image styling */
+.background-image {
+    background-image: url('http://courses.ics.hawaii.edu/ics314f23/morea/ui-frameworks/murphys-new-background.jpeg');
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/* Overlay text styling */
+.overlay-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+}
+
+.overlay-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white; /* Ensure overlay text is white */
+}
+
+/* Footer styling */
+footer {
+    background-color: #004030;
+}
+
+footer p {
+    color: white; /* Ensure footer text is white */
+    margin-bottom: 5px;
+}
